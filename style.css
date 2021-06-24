@@ -1,0 +1,181 @@
+ body{ 
+  padding: 0; 
+  margin: 0; 
+  background color: #f4f4f4;
+  } 
+ .container{ 
+    width: 80%;
+    margin: 0 auto; 
+    overflow: hidden;
+    } 
+  u1{ 
+    margin: 0;
+    padding: 0;
+      }
+ /*header*/ 
+ 
+ header{
+    background: #143D59;
+    color: #ffffff; 
+    padding: 10px 0; 
+   } 
+ 
+ header a{ 
+   color: #ffffff;
+   font-size: 20px;
+   } 
+ 
+ header li{ 
+   display: inline; 
+   padding: 0 20px; 
+    } 
+    
+ #caption{ 
+   float: left;
+ } 
+ 
+ #caption h1{ 
+   margin: 0; 
+   padding: 25px;
+ } 
+ 
+ header nav{ 
+   float: right; 
+   margin-top: 10px;
+   }
+
+ header .highlight , header .current a{ color:#f4B41A; 
+   font-weight: bold; 
+   
+   } 
+  
+   header a:hover{ 
+     color: #cccccc; 
+     font-weight: bold; 
+   }
+   
+   /*header*/
+   
+   #heading{
+     min-height: 500px;
+     background-image: url('https://itxitpro.com/front/img/web-development-services.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: #ffffff;
+   }
+   
+   #heading h1{
+     margin-top: 100px;
+     margin-bottom: 0;
+     font-size: 75px;
+     font-family: 'Abril Fatface';
+   }
+   
+   #heading h2{
+     margin-top: 10px;
+     font-size: 75px;
+     font-family: 'Abril Fatface';
+     margin-bottom: 20px;
+   }
+   
+   #search{
+     padding: 25px;
+     background: #143D59;
+   }
+   
+   /*boxes*/
+   
+   #boxes{
+     margin-top: 50px;
+   }
+   
+   #boxes .box{
+     float: left;
+     text-align:center;
+     padding: 10px;
+     width: 30%;
+   }
+   
+   #boxes .box img{
+     width: 100px;
+   }
+   
+   #boxes .box h3{
+     font-weight: bold;
+     font size: 25px;
+   }
+   
+   #boxes .box p{
+     font-family: 'Lobster', cursive;
+     font-size: 20px;
+   }
+   
+   /*slogan*/
+   
+   #slogan h2{
+     text-align: center;
+     font-size: 55px;
+     font-weight: bold;
+     color: rgb(4, 158, 55);
+     margin top: 70px;
+     margin-bottom: 50px;
+   }
+   
+   #slogan p{
+     text-align: center;
+     font-size: 25px;
+     font-family: 'Lobster', cursive;
+   }
+   
+   #slogan h4{
+     text-align: center;
+     font-size: 35px;
+     font-weight: bold;
+     font-family: 'Abril Fatface';
+   }
+   
+   /*form field*/
+   
+   #forms{
+     background-color: bisque;
+     padding: 20px;
+     margin-left: 30%;
+     margin-right: 30%;
+   }
+   
+   #forms .form-group{
+     padding bottom: 15px;
+     font-size: 20px;
+     color: #F4B41A;
+     font-weight: bold;
+   }
+  
+  #forms label{
+    display: block;
+  }
+  
+  #slogan-2 h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(4, 158, 55);
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+   
+   #video{
+     margin-top: 25px;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     padding-bottom: 30px;
+   }
+   
+   footer{
+     padding: 20px;
+     margin-top: 20px;
+     color: #ffffff;
+     background: #143D59;
+     text-align: center;
+   }
