@@ -172,6 +172,7 @@
      padding-bottom: 30px;
    }
    
+   
    footer{
      padding: 20px;
      margin-top: 20px;
@@ -179,3 +180,18 @@
      background: #143D59;
      text-align: center;
    }
+   
+   .slogan{
+     text-align: center;
+   }
+   
+   #know-more{
+     display: none;
+   }
+   
+   #name-validation, #email-validation,  #password-validation{
+     color: red;
+     font-size: 10px;
+     display: none;
+   }
+   
