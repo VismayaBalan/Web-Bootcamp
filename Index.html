@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Web Development Bootcamp</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -69,6 +70,8 @@
           <h2>Hurry Up! and experience the journey with us!</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
             tempor incididunt ut labore et dolore magna aliqua</p>
+            <button onclick="changecontent()">Know more</button>
+            <p id="know-more">Lorem ipsum dolore sit amagf hurry adipiscing elit aed hdgdj tempor incidudint</p>
           <h4>Register Here</h4>
         </div>
       </div>
@@ -76,23 +79,21 @@
 
     <section id="forms">
       <div class="container">
-        <form style="text-align: center; justify-content: center;">
+        <form style="text-align: center; justify-content: center;" onSubmit="return validation()">
           <div class="form-group">
             <label>Name</label>
-            <input type="text">
+            <input id="name-input" type="text" name="name">
+            <p id="name-validation">Enter name</p>
           </div>
           <div class="form-group">
             <label>Email</label>
-            <input type="email">
+            <input id="email-input" type="email" name="email">
+            <p id="email-validation">Email cannot be empty!</p>
           </div>
           <div class="form-group">
-            <label>Batch</label>
-            <select>
-              <option>2020</option>
-              <option>2019</option>
-              <option>2018</option>
-              <option>2017</option>
-            </select>
+            <label>Password</label>
+            <input id="password-input" type="password" name="password">
+            <p id="password-validation">Enter password</p>
           </div>
           <div class="form-group">
             <input type="Submit">
